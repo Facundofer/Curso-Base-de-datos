@@ -24,7 +24,7 @@
     <section id="VideoFondo">
         <div class="Video">
              <video controls autoplay loop playsinline muted width="100%">
-                <source src="fotos/7www.adoraestaciondecarnes.com - Adora Estacion de Carnes (1080p, h264, youtube).mp4" type="video/mp4">
+                <source src="fotos/www.adoraestaciondecarnes.com - Adora Estacion de Carnes (1080p, h264, youtube).mp4" type="video/mp4">
                 </video>
         </div>
     </section>
