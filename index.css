@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0; /* Asegúrate de que no haya margen */
+    padding: 0; /* Asegúrate de que no haya padding */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid rgb(90, 72, 22);
+    padding: 1%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;    
+}
+#MenuLista ul{
+    position: absolute;
+    list-style: none;
+    right: 13%;
+    top: 30%;
+}
+#NombreLogo{
+    position: relative;
+    padding-left: 2%;
+}
+#Logo{
+    margin-top: 15%;
+    margin-left: 43%;
+}
+#VideoFondo{
+    z-index: -1;
+    position: absolute;
+    justify-items: center;
+    right: 0;
+    top: 0;
+    left: 0;
+    margin-top: 25%;
+    list-style: none;
+}
+.Video{ 
+    position: relative;
+    display: block;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    filter: brightness(0.3);
+    box-sizing: border-box;
+}
+video::-webkit-media-controls {
+    display: none;
+}
+#MenuLista ul button{
+    font-size: 15px;
+    line-height: 30px;
+    position: relative;
+    margin: 0 24px;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    background-color: transparent;
+    cursor: pointer; 
+    transition: border 0.3s;
+
+}
+#MenuLista ul button:hover{
+    border-top: 2px solid white; 
+    border-bottom: 2px solid white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.fotos1{
+    justify-content: center;
+    padding-top: 35%;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+.informacion ul{
+    padding-left: 12%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.informacion ul img{
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+    padding: 10%;
+}
+footer{
+    height: 160px;
+    background-color: #333; /* Color de fondo del footer */
+    color: #fff; /* Color del texto */
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    position: relative; /* Para que esté pegado al fondo */
+    bottom: 0; /* Asegura que esté al final de la página */
+    width: 100%; /* Ocupa todo el ancho de la página */ 
+}
+footer ul{
+    position: absolute;
+    list-style: none;
+    font-size: 16px;
+    top: 0;
+    padding-top: 1%;
+    text-transform: uppercase;
+    right: 0;
+    padding-right: 10%;
+    top: 0;
+    
+}
+footer ul li{
+    padding-top: 5%;
+}
+footer img{
+    top: 0;
+    padding-top: 3%;
+    position: absolute;
+    left: 0;
+    padding-left: 5%;
+
+}
+#logotelefono{
+    position: relative;
+    padding-left: 0;
+    width: 15%;
+    height: 25px;
+}
+#logomapa{
+    position: relative;
+    padding-left: 0;
+    width: 15%;
+    height: 25px;
+}
+#logoinsta{
+    position: relative;
+    padding-left: 0;
+    width: 15%;
+    height: 25px;
+}
+.texto img{
+ 
+    padding-left: 10%;
+    height: 10%;
+    width: 30%;    
+}
+.texto p{
+    width: 50%;
+    font-style: italic;
+    font-size: 25px;
+}
+h3{
+    padding-left: 2%;
+    width: 50%;
+    font-style: italic;
+    font-size: 25px;
+}
